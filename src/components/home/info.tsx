@@ -42,8 +42,8 @@ export default function Info(props: IInfoProps) {
         </h2>
         <p className="text-[12px] md:text-[16px] text-gray-500 italic py-2">
           {groom
-            ? 'hiện đang sinh sống và làm việc tại Nhật Bản. Là một người hiền lành, luôn coi trọng tình cảm và yêu thương gia đình. Với anh: "Gia đình là điểm tựa vững chắc nhất và là bến đỗ bình yên không đâu sánh bằng đối với mỗi con người. Đó luôn là nơi tràn ngập tình yêu thương để ta trở về."'
-            : "Cô gái đến từ Gia Viễn, hiện đang sinh sống và làm việc tại Nhật Bản. Là một người hay cười nhưng lại sống nội tâm, yêu thương gia đình. Sở thích của cô là làm đẹp, nuôi chó, trồng cây, yêu thiên nhiên và ước mơ có cho mình một vườn hoa trong vườn nhà hạnh phúc."}
+            ? 'Viết gì giờ?'
+            : "Viết gì giờ?"}
         </p>
         <p className="text-great-vibes text-[16px] md:text-[20px] lg:text-[26px]">
           {groom ? "Đình Phú" : "Hồng Trang"}

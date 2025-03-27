@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import slide1 from "../../assets/images/Screenshot_24-3-2025_224941_.jpeg";
 import slide2 from "../../assets/images/Screenshot_24-3-2025_225118_.jpeg";
-import slide3 from "../../assets/images/album/linhtinh.jpeg";
+// import slide3 from "../../assets/images/album/linhtinh.jpeg";
 
 export interface ICarouselHeroProps {}
 

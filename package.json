@@ -1,5 +1,6 @@
 {
   "name": "wedding-invitation",
+  "homepage": "https://dinhphu2k1-gif.github.io/wedding-invitation",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +8,13 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
     "react-device-detect": "^2.2.3",
